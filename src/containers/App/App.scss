@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+  margin: 2rem 0rem;
+  padding: 1 rem;
+}
+
+.MuiTableRow-root.table-row {
+  td,
+  th {
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid;
+    cursor: pointer;
+  }
+  &.no-borders {
+    th,
+    td {
+      border: none;
+      cursor: initial;
+    }
+  }
+}
+
+.MuiPaper-root.task {
+  padding: 4px;
+  border: 1px solid darkgreen;
+  border-radius: 4px;
+  margin: 8px 2px;
+  text-align: center;
+  &.clickable {
+    cursor: pointer;
+  }
+}
+.MuiTable-root {
+  &.table {
+    table-layout: fixed;
+    max-width: 1200px;
+    margin: auto;
+  }
+}
