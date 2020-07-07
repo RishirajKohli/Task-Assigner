@@ -1,3 +1,6 @@
+
+                A SPA to assign tasks to employees from  job pool
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
