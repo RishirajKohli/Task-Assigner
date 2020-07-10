@@ -1,6 +1,9 @@
 
 A SPA to assign tasks to employees from  job pool|| created using create-react-app.
 
+Working Preview at:
+https://rishirajkohli.github.io/Task-Assigner/
+
 User can assign jobs(fetched dynamically) pending for a date(currently supporting 20-April to 26 APril for demo purposes) to different employees (fetched dynamically). The Save button creates a dummy POST request with the assigned employees list. 
 
 Technologies used: React, Redux, Redux-Saga,Material-UI.
